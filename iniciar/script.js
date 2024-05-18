@@ -57,7 +57,7 @@ function submitForm(event) {
 
   initialPoint += selectedPhase.point;
   if (selectedPhase.id === 4) {
-    window.location.href = "/finalizado";
+    window.location.href = "../finalizado/index.html";
     localStorage.setItem("gameIsFinalizated", true);
   }
 
