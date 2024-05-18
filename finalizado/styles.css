@@ -1,0 +1,60 @@
+@import "../src/variants.css";
+
+main {
+  padding: 2rem;
+  color: var(--text-color);
+  backdrop-filter: blur(15px);
+  border-radius: 12px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  height: fit-content;
+  transition: 0.3s all ease-in-out;
+  background-color: #ffffff10;
+  width: 50vw;
+}
+
+main a {
+  background-color: #38c500;
+  color: #000;
+  padding: 0.5rem 1.5rem;
+  height: 3.5rem;
+  width: 15rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s all ease;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+}
+
+main h2 {
+  font-size: 2rem;
+}
+
+main p {
+  font-size: 1.25rem;
+  font-weight: 400;
+  font-family: sans-serif;
+  text-align: justify;
+}
+
+main a:hover {
+  transform: scale(1.05);
+}
+
+main span {
+  min-width: 17.5vh;
+  min-height: 17.5vh;
+  border-radius: 999px;
+  border: 1.5vh solid #38c500;
+  font-size: 4vh;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

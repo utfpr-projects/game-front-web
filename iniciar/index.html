@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../src/globals.css" />
+    <link rel="stylesheet" href="styles.css" />
+
+    <title>Adivinhei</title>
+  </head>
+  <body>
+    <header>
+      <a href="/"><h1>Adivinhar Palavra</h1></a>
+    </header>
+
+    <main>
+      <div class="points">
+        <h2>Pontuacao</h2>
+        <span id="pointing"></span>
+      </div>
+
+      <form action="javascript:submitForm();" class="game">
+        <div id="game-phases"></div>
+        <h2 id="phase-word"></h2>
+
+        <div class="content-game">
+          <input
+            type="text"
+            id="word-writed"
+            name="word-writed"
+            placeholder="Escreva aqui"
+          />
+          <label for="word-writed" id="text-error" style="color: red"></label>
+          <button type="submit">Confirmar palavra</button>
+        </div>
+      </form>
+    </main>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
